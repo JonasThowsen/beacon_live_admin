@@ -1,5 +1,8 @@
 import Config
 
+config :esbuild, path: System.get_env("MIX_ESBUILD_PATH"), version_check: false
+config :tailwind, path: System.get_env("MIX_TAILWIND_PATH"), version_check: false
+
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
