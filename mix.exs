@@ -99,7 +99,7 @@ defmodule Beacon.LiveAdmin.MixProject do
         {:beacon, path: path, runtime: false}
 
       String.ends_with?(@version, "-dev") ->
-        {:beacon, github: "BeaconCMS/beacon", runtime: false}
+        {:beacon, github: "JonasThowsen/beacon", runtime: false}
 
       :else ->
         {:beacon, ">= 0.0.0 and < 1.0.0", runtime: false}
