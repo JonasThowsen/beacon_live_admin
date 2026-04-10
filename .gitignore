@@ -67,3 +67,5 @@ node_modules
 
 # Script to kickstart all projects
 /run_projects.sh
+
+.direnv
